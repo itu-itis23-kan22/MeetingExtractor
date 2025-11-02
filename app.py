@@ -80,9 +80,6 @@ def extract_entities(text, ner_pipeline):
 def main():
     st.title("Meeting Transcription and Entity Extraction")
 
-    STUDENT_NAME = "Hasan KAN"
-    STUDENT_ID = "150220332"
-    st.write(f"**{STUDENT_ID} - {STUDENT_NAME}**")
 
     st.write("Upload a business meeting audio file to:")
     st.write("1.\t Transcribe the meeting audio into text.\n2.\t Extract key entities such as Persons, Organizations, Dates, and Locations.")
